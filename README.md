@@ -17,7 +17,7 @@ ck.Value = "this-is-a-test-and-more"
     var name = "test1"
 
     r    *http.Request
-    cookieText, err := cookies.Read(r, name)
+    cookieValue, err := cookies.Read(r, name)
 
 
 ```
